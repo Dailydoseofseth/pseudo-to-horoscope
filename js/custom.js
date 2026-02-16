@@ -119,7 +119,7 @@ const horoscopeData = {
 // 1. Store elements
 const form = document.querySelector("#form");
 const dropdown = document.querySelector("#zodiac");
-const container = document.querySelector(".container");
+const result = document.querySelector("#result");
 
 // 2. Create empty variables
 

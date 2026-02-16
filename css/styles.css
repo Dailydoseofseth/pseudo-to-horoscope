@@ -7,6 +7,10 @@
 
 body {
   background: #1f1f2e;
+  background-image: url("https://i.pinimg.com/originals/46/d3/19/46d31916b537f90e8dc423c9244b00e7.gif");
+  background-size: 100% auto; /* scales the image to fit the card */
+  background-repeat: no-repeat; /* prevents tiling */
+  background-position: center;
   color: white;
   display: flex;
   justify-content: center;
