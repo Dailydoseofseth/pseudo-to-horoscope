@@ -1,0 +1,107 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background: #1f1f2e;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.wrapper {
+  background: #2a2a3d;
+  background-image: url("https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExbjE1ZW4yMjU5dGQ5N3ltb3NhMHhidzFteHBjcmFkNDJibzZsaTFyZSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/VJ6B5KJoAWGbOqBkJ9/giphy.webp");
+  background-size: 120% auto; /* scales the image to fit the card */
+  background-repeat: no-repeat; /* prevents tiling */
+  background-position: center;
+  padding: 40px;
+  border: #cc8d32 double 7px;
+  border-radius: 12px;
+  width: 100%;
+  max-width: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  margin-bottom: 30px;
+}
+
+form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-bottom: 30px;
+}
+
+select,
+button {
+  padding: 10px;
+  border-radius: 6px;
+  border: none;
+  font-size: 16px;
+}
+select {
+  background-image: url("https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExN2JnMDY4amZsdmRvaTg0aW5oOG1wMnViZWd4OTNldWx6MzRia2h5eiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/mRN4z5je2Ly6Mjvr0s/giphy.webp");
+  color: #d1c66e;
+}
+button {
+  background: #d1c66e;
+  color: white;
+  cursor: pointer;
+  width: 25%;
+  min-width: 70px;
+}
+
+button:hover {
+  background: #574fd6;
+  background: #cc8d32;
+}
+
+#result {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.card {
+  background: #3a3a55;
+  background-image: url("https://i.pinimg.com/originals/65/1a/40/651a40b6eb0a6c759833def942cf1fbf.gif");
+  background-size: 120% auto; /* scales the image to fit the card */
+  background-repeat: no-repeat; /* prevents tiling */
+  background-position: center; /* centers the image inside the card */
+
+  padding: 25px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: center;
+}
+
+.card img {
+  width: 80px;
+  margin-bottom: 15px;
+}
+
+.card h2 {
+  margin-bottom: 120px;
+  font-weight: bolder;
+}
+
+.card p {
+  margin-bottom: 10px;
+  font-weight: bolder;
+  color: #fff;
+  text-shadow:
+    1px 2px 5px #b53a05,
+    2px 3px 5px #ddd333;
+}
