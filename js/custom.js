@@ -145,6 +145,7 @@ function onSubmit(event) {
   // the #Results DIV (so things don't stack) & ONLY shows
   // current result to user ///
   /// cool new concept - YT research ///
+  /// "Controlled DOM re-render" /////
   //////////////////////////////////////////
   result.innerHTML = "";
 
@@ -155,6 +156,7 @@ function onSubmit(event) {
 
     if (selectedSign === currentSign.sign) {
       displayResults(currentSign);
+      break;
     }
   }
 
@@ -190,5 +192,10 @@ function displayResults(signObject) {
   card.appendChild(dateRange);
   card.appendChild(horoscopeMsg);
 
+  //////////////////////////////////////////////////////
+  /// powerful control of what goes in the "results box" ///
+  /// like how many cards OR clearing all out of result DIV first
+  ///  with results.innerHTML ="";
+  ///////////////////////////////////////////////////////
   result.appendChild(card);
 }

@@ -10,7 +10,7 @@ body {
   background-image: url("https://i.pinimg.com/originals/46/d3/19/46d31916b537f90e8dc423c9244b00e7.gif");
   background-size: 100% auto; /* scales the image to fit the card */
   background-repeat: no-repeat; /* prevents tiling */
-  background-position: center;
+  background-position: center; /* centers image to middle of the card*/
   color: white;
   display: flex;
   justify-content: center;
@@ -21,8 +21,8 @@ body {
 .wrapper {
   background: #2a2a3d;
   background-image: url("https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExbjE1ZW4yMjU5dGQ5N3ltb3NhMHhidzFteHBjcmFkNDJibzZsaTFyZSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/VJ6B5KJoAWGbOqBkJ9/giphy.webp");
-  background-size: 120% auto; /* scales the image to fit the card */
-  background-repeat: no-repeat; /* prevents tiling */
+  background-size: 120% auto;
+  background-repeat: no-repeat;
   background-position: center;
   padding: 40px;
   border: #cc8d32 double 7px;
@@ -79,9 +79,9 @@ button:hover {
 .card {
   background: #3a3a55;
   background-image: url("https://i.pinimg.com/originals/65/1a/40/651a40b6eb0a6c759833def942cf1fbf.gif");
-  background-size: 120% auto; /* scales the image to fit the card */
-  background-repeat: no-repeat; /* prevents tiling */
-  background-position: center; /* centers the image inside the card */
+  background-size: 120% auto;
+  background-repeat: no-repeat;
+  background-position: center;
 
   padding: 25px;
   border-radius: 10px;
