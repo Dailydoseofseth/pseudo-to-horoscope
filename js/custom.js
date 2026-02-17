@@ -154,7 +154,6 @@ function onSubmit(event) {
 
     if (selectedSign === currentSign.sign) {
       displayResults(currentSign);
-      break;
     }
   }
 
