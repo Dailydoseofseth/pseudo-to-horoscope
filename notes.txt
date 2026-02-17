@@ -1,0 +1,9 @@
+-block scope
+variables deined inside a pair of curly brackets, and cannot be accessed from outside the block
+
+-function scope 
+variables defined inside of a function that cannot be accessed from outside the function
+
+-global scope
+globally scoped variables cna be accessed from inside fucntions, blocks or from anywhere outside
+
