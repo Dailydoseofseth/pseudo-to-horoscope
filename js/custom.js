@@ -121,8 +121,6 @@ const form = document.querySelector("#form");
 const dropdown = document.querySelector("#zodiac");
 const result = document.querySelector("#result");
 
-// 2. Create empty variables
-
 ///////////////////////
 // access the array of Objects//
 //////////////////////
